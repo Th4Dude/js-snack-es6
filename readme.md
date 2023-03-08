@@ -7,8 +7,11 @@ Ci ha lasciato il nome del tavolo (“Tavolo Vip”) e la lista degli invitati i
 Ma la tipografia per stampare il tutto vuole che le mandiamo una lista di ospiti in cui ogni ospite sia un oggetto javascript che ha come attributi: nome del tavolo, nome dell’ospite e posto occupato.
 Generiamo e stampiamo in console la lista per i segnaposto.
 
+creo variabile tavolo
 creo arrey invitati
-creo una lista di oggetti js con attributi nome tavolo,nome ospite e posto occupato 
+creo ciclo foreach con attributi
+li pusho dentro lista tipografia con attributi
+stampo
 
 
 
