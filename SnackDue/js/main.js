@@ -1,5 +1,7 @@
 'use strict'
 
+/* array con obj */
+
 const studentiFacolta = [
     {
         id : 213,
@@ -36,9 +38,12 @@ const studentiFacolta = [
         nome : 'Tony Tammaro',
         sommaTotale : 84,
     },
-    
-
 ]
+
+/* array con obj */
+
+/* Studente solo nomi */
+
 console.log(studentiFacolta);
 
 const nomi = studentiFacolta.map((studentiNome) =>{
@@ -46,15 +51,26 @@ const nomi = studentiFacolta.map((studentiNome) =>{
 });
 console.log(nomi);
 
+/* Studente solo nomi */
 
-/* const 
+/* stutente sommatotale >70 */
 
-const nomiStudenti = studentiFacolta.filter((nome) =>{
-    if(nome = nome){
-        return true;
-    }
-    return false;
+const sumTotSuperiore = studentiFacolta.filter((StudenteVoti)=>{
+   
+    return StudenteVoti.sommaTotale>70;
+})
 
-} );
+console.log(sumTotSuperiore);
 
-console.log(nomiStudenti) */
+/* stutente sommatotale >70 */
+
+/* studente >70 >= 120 */
+
+const studentealpha = studentiFacolta.filter((studente)=>{
+   
+    return studente.sommaTotale>70 && studente.id>=120;
+})
+
+console.log(studentealpha);
+
+/* studente >70 >= 120 */
