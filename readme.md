@@ -65,7 +65,11 @@ Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli su
 Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
 ---------------------------------
+creo un array di oggetti
 
+creo array con all'interno oggetti ed attributi nome e punti fallisubiti
+utilizzo la destrutturazione e creo nomi e falli subiti
+stampo a console
 
 
 
