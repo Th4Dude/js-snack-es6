@@ -42,6 +42,8 @@ const element = document.createElement('p');
 
 element.innerHTML = (`${piuLeggera}`+' kg ' + ' è la bici più leggera')
 
+element.classList.add('font');
+
 containerHtml.append(element);
 
 
